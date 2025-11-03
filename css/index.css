@@ -1,5 +1,9 @@
 html {
     background-color: linen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;    
 }
 
 body {
@@ -9,8 +13,9 @@ body {
     background-image: radial-gradient(linen, lemonchiffon);
     border: 5px solid darksalmon;
     border-radius: 20px;
-    padding: 20px;
+    padding: 0;
 }
+
 h1 {
     font-size: clamp(1.5rem, 2vw, 2.5rem);
 }
